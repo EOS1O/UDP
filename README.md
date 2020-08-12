@@ -1,5 +1,5 @@
 # UDP
-
+使用python socket以及threading模块编程，实现UDP通信，具体功能如下
 ### 已实现功能：
 + Server与多个Client间通信
 + 登录登出功能
