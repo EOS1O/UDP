@@ -62,7 +62,7 @@ python G:\UNSWIT\9331\ASS\client.py 127.0.0.1 10000 10
 
 ##### Case 4 - Already login
 
-![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807005539.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807011407.png)
 
 
 
@@ -70,7 +70,7 @@ python G:\UNSWIT\9331\ASS\client.py 127.0.0.1 10000 10
 
 After 3 consecutive failed attempts,  user is blocked for a duration of block_duration seconds (in this program is 10 second)
 
-![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807010258.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807005539.png)
 
 
 
@@ -82,7 +82,7 @@ When user want to logout, he can type this command in the client
 logout
 ```
 
-![微信图片_20200807010258](C:\Users\24593\Desktop\微信图片_20200807010258.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807010258.png)
 
  In the server window, it will show which user logs out
 
@@ -92,11 +92,11 @@ logout
 
 After logging in, user need to apply for a distinct tempID
 
-![微信图片_20200807010641](C:\Users\24593\Desktop\微信图片_20200807010641.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807010641.png)
 
  In the server window, it will also show the TempID. In addition, a new record about this information will be added to the file tempIDs.txt 
 
-![微信图片_20200807011016](C:\Users\24593\Desktop\微信图片_20200807011016.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807011016.png)
 
 
 
@@ -110,11 +110,11 @@ Beacon 127.0.0.1 10
 
 10   -   UDP_port
 
-![微信图片_20200807011611](C:\Users\24593\Desktop\微信图片_20200807011611.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807011611.png)
 
 When current_time > expiry_time, peer-2 will display The beacon is invalid
 
-![微信图片_20200807012104](C:\Users\24593\Desktop\微信图片_20200807012104.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807012104.png)
 
 
 
@@ -126,7 +126,7 @@ In order to upload the log to the server, user can use this command
 Upload_contact_log
 ```
 
-![微信图片_20200807012748](C:\Users\24593\Desktop\微信图片_20200807012748.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807012748.png)
 
 In the server window, it shows all tempIDs, start_time and expiry_time. Meanwhile, it also shows contact log checking.
 
