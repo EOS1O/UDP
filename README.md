@@ -24,7 +24,7 @@ python G:\UNSWIT\9331\ASS\server.py 10000 10
 
 10000  -  server_port			10  -  block_duration
 
-![微信图片_20200807002924](C:\Users\24593\Desktop\微信图片_20200807002924.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807002924.png)
 
 
 
@@ -38,31 +38,31 @@ python G:\UNSWIT\9331\ASS\client.py 127.0.0.1 10000 10
 
  127.0.0.1  -  local_host        10000  -  server_port      10  -  client_udp_port (random)
 
-![微信图片_20200807004328](C:\Users\24593\Desktop\微信图片_20200807004328.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807004328.png)
 
 
 
 ##### Case 1 - Login successfully
 
-![微信图片_20200807004625](C:\Users\24593\Desktop\微信图片_20200807004625.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807004625.png)
 
 
 
 ##### Case 2 - Wrong password
 
-![微信图片_20200807005030](C:\Users\24593\Desktop\微信图片_20200807005030.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807005030.png)
 
 
 
 ##### Case 3 - Wrong account
 
-![微信图片_20200807005201](C:\Users\24593\Desktop\微信图片_20200807005201.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807005201.png)
 
 
 
 ##### Case 4 - Already login
 
-![微信图片_20200807011407](C:\Users\24593\Desktop\微信图片_20200807011407.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807005539.png)
 
 
 
@@ -70,7 +70,7 @@ python G:\UNSWIT\9331\ASS\client.py 127.0.0.1 10000 10
 
 After 3 consecutive failed attempts,  user is blocked for a duration of block_duration seconds (in this program is 10 second)
 
-![微信图片_20200807005539](C:\Users\24593\Desktop\微信图片_20200807005539.png)
+![](https://github.com/EOS1O/UDP/blob/master/imag/微信图片_20200807010258.png)
 
 
 
